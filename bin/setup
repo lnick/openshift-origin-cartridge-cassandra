@@ -1,4 +1,5 @@
 #!/bin/bash -e
 
 mkdir -p $OPENSHIFT_CASSANDRA_DIR/cassandra/{log,pid,saved_caches,data,commitlog,pid}
+erb $OPENSHIFT_CASSANDRA_DIR/versions/1.2.5/conf/log4j-server.properties.erb > $OPENSHIFT_CASSANDRA_DIR/versions/1.2.5/conf/log4j-server.properties
 erb $OPENSHIFT_CASSANDRA_DIR/versions/1.2.5/conf/cassandra.yaml.erb > $OPENSHIFT_CASSANDRA_DIR/versions/1.2.5/conf/cassandra.yaml 
