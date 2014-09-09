@@ -5,7 +5,6 @@ This cartridge provides [Cassandra](http://cassandra.apache.org/) on Jelastic Pl
 
 The provided linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra also includes a support for replicating across multiple datacenters, providing lower latency and the peace of mind of knowing that you can survive regional outages.
 
-
 Follow the [link](http://ops-docs.jelastic.com/private-add-cartridge) in order to find out how to enable the current cartridge at Jelastic dashboard.
 
 ### What Jelastic cartridge is?
